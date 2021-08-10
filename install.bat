@@ -4,6 +4,11 @@
 :: Install all the packages
 :: -y confirm yes for any prompt during the install process ﻿
 
+:: Install cascadia code
+:: https://github.com/microsoft/cascadia-code/releases
+:: Set terminal to use the font
+:: "fontFace":  "Cascadia Code PL"
+
 choco install visualstudiocode -fy
 choco install git -fy
 choco install notepadplusplus.install -fy
